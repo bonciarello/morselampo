@@ -14,7 +14,7 @@ const html = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf-8');
 const dom = new JSDOM(html, {
   runScripts: 'dangerously',
   resources: 'usable',
-  url: 'https://cristianporco.it/app/morselampo/'
+  url: 'https://github.com/bonciarello/morselampo/'
 });
 
 const { window } = dom;
